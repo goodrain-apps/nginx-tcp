@@ -14,7 +14,7 @@ ADD nginx.tgz /usr/local/
 COPY nginx.conf /usr/local/nginx/conf/nginx.conf
 
 #COPY sites_stream/ws.conf /usr/local/nginx/conf/sites_stream/ws.conf
-#COPY sites_http/http.conf /usr/local/nginx/conf/sites_http/http.conf
+COPY sites_http/http.conf /usr/local/nginx/conf/sites_http/http.conf
 
 
 WORKDIR /usr/local/nginx/
